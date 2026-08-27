@@ -78,3 +78,8 @@ WS2811_LED             : PA8   // WS2812B RGB LED Strip Data
   
 Flash using UART for less failure (UART TO TTL)
 The best is to use st link
+
+
+here is the source repo i created and got helped alot
+
+https://github.com/MK384/inav-7.1.0-supports-legacy-hardware-and-nRF24.git
