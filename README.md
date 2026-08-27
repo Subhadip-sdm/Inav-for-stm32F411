@@ -76,4 +76,5 @@ WS2811_LED             : PA8   // WS2812B RGB LED Strip Data
 =================================================================================
 
   
-
+Flash using UART for less failure (UART TO TTL)
+The best is to use st link
