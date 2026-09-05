@@ -1,6 +1,18 @@
 THIS IS INAV 7.1 Firmware which supports Older hardware 
 This firmware specially made for STM33F411 blackpill board 
 
+# INAV 7.1 for STM32F411 (Legacy Hardware Support)
+
+This repository provides a custom, memory-optimized build of **INAV 7.1** for the **STM32F411 Blackpill** and compatible flight controllers, adding legacy hardware support and the **QMC5883P** magnetometer within 512KB flash limits.
+
+## 🛠️ Supported Modules & Configuration
+* Includes support for standard gyroscopes, accelerometers, barometers, and extended magnetometers including the **QMC5883P**.
+* Configured with optimized pin assignments for power, status, UARTs, I2C/SPI buses, and peripherals on the STM32F411 Blackpill.
+
+## ⚡ Flashing Instructions
+1. Flash using a **UART-to-TTL adapter** or an **ST-Link V2 / V3 debugger**.
+2. Load the pre-compiled `.hex` file via the INAV Configurator firmware flasher tool.
+
 
 *********** SUPPORTED MODULES ***********
 GYROSCOPES & ACCELEROMETERS
