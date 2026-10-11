@@ -83,7 +83,6 @@ SDCARD_CS              : PA4   // MicroSD Blackbox Chip Select
 OPFLOW_CS              : PB10  // ADNS3080 Chip Select
 OPFLOW_RST             : PB2   // ADNS3080 Reset Pin
 
-// Peripherals
 WS2811_LED             : PA8   // WS2812B RGB LED Strip Data
 =================================================================================
 
